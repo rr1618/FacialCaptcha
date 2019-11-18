@@ -16,7 +16,7 @@ img=cv2.resize(cv2.imread('TestImage.jpg'),(413,531))
 rahul = cv2.resize(cv2.imread('TestImage.jpg'),(413,531))
 
 coords=coordinates.detect(rahul,faceCascade,eyesCascade,noseCascade,mouthCascade)
-print(coords)
+# print(coords)
 # store the coordinates of the face
 face=coords[0]
 # Correct the coordinates irrespective of the cropped coordinates, in case if the right eye is detected first
